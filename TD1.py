@@ -58,7 +58,7 @@ def max_score(liste_mot):
 #liste_mot = ['rte', 'ver', 'ce', 'etc', 'cet', 'ex', 'cr', 'et', 'ter', 'te', 'ct']
 #print(max_score(liste_mot))        
   
-#le programme ci-dessus ne renvoie pas la même valeur que celui ci-dessous. Je n'ai pas trouvé l'erreur.
+#les programmes ci-dessous ne renvoient pas les mêmes valeurs. Je n'ai pas trouvé l'erreur, que je pense être dans le mot_score_max1
 def mot_score_max2(tirage,mots_possibles):
     mot_max = ''
     s = score(mot_max)
